@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.birthday-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo-section .logo {
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.content {
+    margin-top: 20px;
+}
+
+.birthday-message {
+    color: #0033cc;
+    font-size: 2em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.wish-text {
+    color: #333;
+    font-size: 1em;
+    margin-bottom: 20px;
+}
+
+.image-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-picture {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border: 3px solid #0033cc;
+    margin-bottom: 10px;
+}
+
+.name-section .name {
+    color: #0033cc;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.designation {
+    color: #666;
+    font-size: 1em;
+}
+
+.footer {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #666;
+}
